@@ -1,0 +1,29 @@
+{
+  "name": "array-manipulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "start": "ts-node src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/falizhar/array-manipulator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/falizhar/array-manipulator/issues"
+  },
+  "homepage": "https://github.com/falizhar/array-manipulator#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@types/node": "^18.15.11",
+    "@types/readline-sync": "^1.4.4",
+    "readline-sync": "^1.4.10",
+    "ts-node": "^10.9.1"
+  }
+}
