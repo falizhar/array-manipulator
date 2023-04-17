@@ -9,7 +9,7 @@ export class ArrayOperations {
 
   static printArray(arr: number[]): void {
     arr.forEach((num, index) => {
-      process.stdout.write(num.toFixed(2) + " ");
+      process.stdout.write(num.toFixed(0) + " ");
       if ((index + 1) % 10 === 0) {
         console.log();
       }
@@ -25,8 +25,8 @@ export class ArrayOperations {
   static printExtremes(arr: number[]): void {
     const minIndex = arr.indexOf(Math.min(...arr));
     const maxIndex = arr.indexOf(Math.max(...arr));
-    console.log(`Arr[${minIndex}] = ${arr[minIndex].toFixed(3)} is the smallest element in the array;`);
-    console.log(`Arr[${maxIndex}] = ${arr[maxIndex].toFixed(3)} is the largest element in the array;`);
+    console.log(`Arr[${minIndex}] = ${arr[minIndex].toFixed(0)} is the smallest element in the array;`);
+    console.log(`Arr[${maxIndex}] = ${arr[maxIndex].toFixed(0)} is the largest element in the array;`);
   }
 
   static gatherEvenIntegers(arr: number[]): number[] {
